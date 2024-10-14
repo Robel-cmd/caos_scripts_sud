@@ -419,7 +419,7 @@ class FootballStadium(Map):
         
         #bs.gameTimer(20,bs.Call(snowfall),repeat = True)
 
-        g.tint = (1.3, 1.2, 1.0)
+        g.tint = (tintG)
         g.ambientColor = (1.3, 1.2, 1.0)
         g.vignetteOuter = (0.57, 0.57, 0.57)
         g.vignetteInner = (0.9, 0.9, 0.9)

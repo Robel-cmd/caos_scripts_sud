@@ -8,7 +8,7 @@ def night():
     try:
         # print 'Nigth Mode: ', settings.nightMode
         if settings.nightMode:
-            bs.getSharedObject("globals").tint = (0.6, 0.8, 1.2)
+            bs.getSharedObject("globals").tint = (0.8, 1, 1.2)
     except:
         pass
 
